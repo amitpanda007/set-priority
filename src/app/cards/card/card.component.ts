@@ -7,11 +7,10 @@ import { Component, OnInit } from "@angular/core";
     styleUrls: ['card.component.scss']
 })
 export class CardComponent implements OnInit {
-    private cardName: String;
 
     constructor() {}
 
     ngOnInit(): void {
-        this.cardName = "Test Card";
+        
     }
 }
